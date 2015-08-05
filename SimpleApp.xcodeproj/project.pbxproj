@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F8405211B71FA5000160007 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8405201B71FA5000160007 /* ScaryBugData.m */; };
+		5F8405271B72087F00160007 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8405261B72087F00160007 /* ScaryBugDoc.m */; };
+		5F8405291B721DBA00160007 /* ScaryBugs in Resources */ = {isa = PBXBuildFile; fileRef = 5F8405281B721DBA00160007 /* ScaryBugs */; };
 		5FC50B0B1B70C1F3006BC539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50B0A1B70C1F3006BC539 /* main.m */; };
 		5FC50B0E1B70C1F3006BC539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50B0D1B70C1F3006BC539 /* AppDelegate.m */; };
 		5FC50B111B70C1F3006BC539 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50B101B70C1F3006BC539 /* MasterViewController.m */; };
@@ -28,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F84051F1B71FA5000160007 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		5F8405201B71FA5000160007 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		5F8405251B72087F00160007 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		5F8405261B72087F00160007 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		5F8405281B721DBA00160007 /* ScaryBugs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScaryBugs; sourceTree = "<group>"; };
 		5FC50B051B70C1F3006BC539 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC50B091B70C1F3006BC539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC50B0A1B70C1F3006BC539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F8405171B71F5F100160007 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				5FC50B0C1B70C1F3006BC539 /* AppDelegate.h */,
+				5FC50B0D1B70C1F3006BC539 /* AppDelegate.m */,
+				5FC50B0F1B70C1F3006BC539 /* MasterViewController.h */,
+				5FC50B101B70C1F3006BC539 /* MasterViewController.m */,
+				5FC50B121B70C1F3006BC539 /* DetailViewController.h */,
+				5FC50B131B70C1F3006BC539 /* DetailViewController.m */,
+				5FC50B151B70C1F3006BC539 /* Main.storyboard */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		5F8405181B71F60300160007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F84051F1B71FA5000160007 /* ScaryBugData.h */,
+				5F8405201B71FA5000160007 /* ScaryBugData.m */,
+				5F8405251B72087F00160007 /* ScaryBugDoc.h */,
+				5F8405261B72087F00160007 /* ScaryBugDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		5FC50AFC1B70C1F3006BC539 = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +117,9 @@
 		5FC50B071B70C1F3006BC539 /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5FC50B0C1B70C1F3006BC539 /* AppDelegate.h */,
-				5FC50B0D1B70C1F3006BC539 /* AppDelegate.m */,
-				5FC50B0F1B70C1F3006BC539 /* MasterViewController.h */,
-				5FC50B101B70C1F3006BC539 /* MasterViewController.m */,
-				5FC50B121B70C1F3006BC539 /* DetailViewController.h */,
-				5FC50B131B70C1F3006BC539 /* DetailViewController.m */,
-				5FC50B151B70C1F3006BC539 /* Main.storyboard */,
+				5F8405281B721DBA00160007 /* ScaryBugs */,
+				5F8405181B71F60300160007 /* Model */,
+				5F8405171B71F5F100160007 /* GUI */,
 				5FC50B181B70C1F3006BC539 /* Images.xcassets */,
 				5FC50B1A1B70C1F3006BC539 /* LaunchScreen.xib */,
 				5FC50B081B70C1F3006BC539 /* Supporting Files */,
@@ -204,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8405291B721DBA00160007 /* ScaryBugs in Resources */,
 				5FC50B171B70C1F3006BC539 /* Main.storyboard in Resources */,
 				5FC50B1C1B70C1F3006BC539 /* LaunchScreen.xib in Resources */,
 				5FC50B191B70C1F3006BC539 /* Images.xcassets in Resources */,
@@ -224,9 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8405211B71FA5000160007 /* ScaryBugData.m in Sources */,
 				5FC50B0E1B70C1F3006BC539 /* AppDelegate.m in Sources */,
 				5FC50B111B70C1F3006BC539 /* MasterViewController.m in Sources */,
 				5FC50B0B1B70C1F3006BC539 /* main.m in Sources */,
+				5F8405271B72087F00160007 /* ScaryBugDoc.m in Sources */,
 				5FC50B141B70C1F3006BC539 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +456,7 @@
 				5FC50B2D1B70C1F4006BC539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FC50B2E1B70C1F4006BC539 /* Build configuration list for PBXNativeTarget "SimpleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +465,7 @@
 				5FC50B301B70C1F4006BC539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
