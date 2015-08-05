@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		5F8405211B71FA5000160007 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8405201B71FA5000160007 /* ScaryBugData.m */; };
 		5F8405271B72087F00160007 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8405261B72087F00160007 /* ScaryBugDoc.m */; };
-		5F8405291B721DBA00160007 /* ScaryBugs in Resources */ = {isa = PBXBuildFile; fileRef = 5F8405281B721DBA00160007 /* ScaryBugs */; };
+		5F8405331B722A7300160007 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F84052B1B722A7300160007 /* centipede.jpg */; };
+		5F8405341B722A7300160007 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F84052C1B722A7300160007 /* centipedeThumb.jpg */; };
+		5F8405351B722A7300160007 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F84052D1B722A7300160007 /* ladybug.jpg */; };
+		5F8405361B722A7300160007 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F84052E1B722A7300160007 /* ladybugThumb.jpg */; };
+		5F8405371B722A7300160007 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F84052F1B722A7300160007 /* potatoBug.jpg */; };
+		5F8405381B722A7300160007 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F8405301B722A7300160007 /* potatoBugThumb.jpg */; };
+		5F8405391B722A7300160007 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F8405311B722A7300160007 /* wolfSpider.jpg */; };
+		5F84053A1B722A7300160007 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F8405321B722A7300160007 /* wolfSpiderThumb.jpg */; };
 		5FC50B0B1B70C1F3006BC539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50B0A1B70C1F3006BC539 /* main.m */; };
 		5FC50B0E1B70C1F3006BC539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50B0D1B70C1F3006BC539 /* AppDelegate.m */; };
 		5FC50B111B70C1F3006BC539 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50B101B70C1F3006BC539 /* MasterViewController.m */; };
@@ -35,7 +42,14 @@
 		5F8405201B71FA5000160007 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
 		5F8405251B72087F00160007 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
 		5F8405261B72087F00160007 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
-		5F8405281B721DBA00160007 /* ScaryBugs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScaryBugs; sourceTree = "<group>"; };
+		5F84052B1B722A7300160007 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		5F84052C1B722A7300160007 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		5F84052D1B722A7300160007 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		5F84052E1B722A7300160007 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		5F84052F1B722A7300160007 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		5F8405301B722A7300160007 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		5F8405311B722A7300160007 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		5F8405321B722A7300160007 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 		5FC50B051B70C1F3006BC539 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC50B091B70C1F3006BC539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC50B0A1B70C1F3006BC539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +110,21 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		5F84052A1B722A7300160007 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				5F84052B1B722A7300160007 /* centipede.jpg */,
+				5F84052C1B722A7300160007 /* centipedeThumb.jpg */,
+				5F84052D1B722A7300160007 /* ladybug.jpg */,
+				5F84052E1B722A7300160007 /* ladybugThumb.jpg */,
+				5F84052F1B722A7300160007 /* potatoBug.jpg */,
+				5F8405301B722A7300160007 /* potatoBugThumb.jpg */,
+				5F8405311B722A7300160007 /* wolfSpider.jpg */,
+				5F8405321B722A7300160007 /* wolfSpiderThumb.jpg */,
+			);
+			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
 		5FC50AFC1B70C1F3006BC539 = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +146,7 @@
 		5FC50B071B70C1F3006BC539 /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
-				5F8405281B721DBA00160007 /* ScaryBugs */,
+				5F84052A1B722A7300160007 /* ScaryBugs */,
 				5F8405181B71F60300160007 /* Model */,
 				5F8405171B71F5F100160007 /* GUI */,
 				5FC50B181B70C1F3006BC539 /* Images.xcassets */,
@@ -233,9 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8405291B721DBA00160007 /* ScaryBugs in Resources */,
 				5FC50B171B70C1F3006BC539 /* Main.storyboard in Resources */,
+				5F8405371B722A7300160007 /* potatoBug.jpg in Resources */,
+				5F8405391B722A7300160007 /* wolfSpider.jpg in Resources */,
+				5F84053A1B722A7300160007 /* wolfSpiderThumb.jpg in Resources */,
+				5F8405361B722A7300160007 /* ladybugThumb.jpg in Resources */,
+				5F8405331B722A7300160007 /* centipede.jpg in Resources */,
+				5F8405341B722A7300160007 /* centipedeThumb.jpg in Resources */,
 				5FC50B1C1B70C1F3006BC539 /* LaunchScreen.xib in Resources */,
+				5F8405381B722A7300160007 /* potatoBugThumb.jpg in Resources */,
+				5F8405351B722A7300160007 /* ladybug.jpg in Resources */,
 				5FC50B191B70C1F3006BC539 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
